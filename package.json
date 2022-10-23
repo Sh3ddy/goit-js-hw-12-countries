@@ -1,0 +1,16 @@
+{
+  "name": "goit-js-hw-12-coutries",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-12-coutries/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "lodash.debounce": "^4.0.8",
+    "notiflix": "^3.2.5",
+    "parcel": "^2.7.0"
+  }
+}
